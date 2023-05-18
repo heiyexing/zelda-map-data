@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 4052181 */
+    src: url('iconfont.woff2?t=1684401991125') format('woff2'),
+    url('iconfont.woff?t=1684401991125') format('woff'),
+    url('iconfont.ttf?t=1684401991125') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yahaha2_start:before {
+    content: "\e6b3";
+}
+
+.icon-fish:before {
+    content: "\e6a6";
+}
+
+.icon-miscellaneous:before {
+    content: "\e6a7";
+}
+
+.icon-special_location:before {
+    content: "\e6a8";
+}
+
+.icon-plot_challenge:before {
+    content: "\e6a9";
+}
+
+.icon-cooking_pot:before {
+    content: "\e6aa";
+}
+
+.icon-mushroom:before {
+    content: "\e6ab";
+}
+
+.icon-mine:before {
+    content: "\e6ac";
+}
+
+.icon-gliding_sail_fabric:before {
+    content: "\e6ad";
+}
+
+.icon-flower:before {
+    content: "\e6ae";
+}
+
+.icon-fruit:before {
+    content: "\e6af";
+}
+
+.icon-key_items:before {
+    content: "\e6b0";
+}
+
+.icon-note:before {
+    content: "\e6b1";
+}
+
+.icon-birds_beasts:before {
+    content: "\e6b2";
+}
+
+.icon-boss_zelda:before {
+    content: "\e697";
+}
+
+.icon-upgrade_materials:before {
+    content: "\e696";
+}
+
+.icon-boss_combat_platform:before {
+    content: "\e68c";
+}
+
+.icon-weapon:before {
+    content: "\e68d";
+}
+
+.icon-clothing:before {
+    content: "\e68e";
+}
+
+.icon-treasure_chest:before {
+    content: "\e68f";
+}
+
+.icon-npc_tasks:before {
+    content: "\e690";
+}
+
+.icon-mini_challenge:before {
+    content: "\e691";
+}
+
+.icon-zuonawu_device_manufacturing_machine:before {
+    content: "\e68b";
+}
+
+.icon-yahaha:before {
+    content: "\e689";
+}
+
+.icon-yahaha2:before {
+    content: "\e68a";
+}
+
+.icon-well:before {
+    content: "\e687";
+}
+
+.icon-wind_temple:before {
+    content: "\e688";
+}
+
+.icon-the_root_of_enclodata:before {
+    content: "\e683";
+}
+
+.icon-thunder_temple:before {
+    content: "\e684";
+}
+
+.icon-underground:before {
+    content: "\e685";
+}
+
+.icon-water_temple:before {
+    content: "\e686";
+}
+
+.icon-sky:before {
+    content: "\e67d";
+}
+
+.icon-small_location:before {
+    content: "\e67e";
+}
+
+.icon-spirit_temple:before {
+    content: "\e67f";
+}
+
+.icon-spring_of_great_fairy:before {
+    content: "\e680";
+}
+
+.icon-stage:before {
+    content: "\e681";
+}
+
+.icon-tears_of_the_dragon:before {
+    content: "\e682";
+}
+
+.icon-refining_magic_statue:before {
+    content: "\e67b";
+}
+
+.icon-seven_major_settlements:before {
+    content: "\e67c";
+}
+
+.icon-horse_god:before {
+    content: "\e678";
+}
+
+.icon-indication_of_old_map:before {
+    content: "\e679";
+}
+
+.icon-monument:before {
+    content: "\e67a";
+}
+
+.icon-fire_temple:before {
+    content: "\e675";
+}
+
+.icon-ground:before {
+    content: "\e676";
+}
+
+.icon-hailaru_castle:before {
+    content: "\e677";
+}
+
+.icon-demon_figure:before {
+    content: "\e674";
+}
+
+.icon-caves_and_secret_passages:before {
+    content: "\e672";
+}
+
+.icon-deep_hole:before {
+    content: "\e673";
+}
+
+.icon-breaking_the_demon_god_temple:before {
+    content: "\e671";
+}
+
+.icon-battery_manufacturing_machine:before {
+    content: "\e66e";
+}
+
+.icon-bird_watching_platform:before {
+    content: "\e66f";
+}
+
