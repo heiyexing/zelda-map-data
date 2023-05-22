@@ -2,6 +2,7 @@ const fs = require("fs-extra");
 const _ = require("lodash");
 const MapHelper = require("./MapHelper");
 const path = require("path");
+const { fromPairs } = require("lodash");
 
 const mapTypeList = ["ground", "sky", "underground"];
 
@@ -11,24 +12,33 @@ const mapTypeNameMap = {
   underground: "底下",
 };
 
-const categoryMap = {};
-
 const data = [];
 
 mapTypeList.forEach((mapPath) => {
-  const categoryObj = require(`./data/${mapPath}/category.json`);
+  const groupList = require(`./data/${mapPath}/group.json`);
   const locationList = require(`./data/${mapPath}/location.json`);
 
-  Object.values(categoryObj).forEach((item) => {
-    if (!categoryMap[item.title]) {
-      item.id = item.title;
-      categoryMap[item.title] = _.pick(item, "title", "id", "icon");
-    }
-  });
+  const groupMap = fromPairs(
+    groupList
+      .map((group, groupIndex) =>
+        group.categories.map((category) => [
+          category.title,
+          {
+            group: group.title,
+            groupOrder: groupIndex,
+          },
+        ])
+      )
+      .flat()
+  );
 
   locationList.forEach((location) => {
-    const targetCategory = categoryMap[location.category.title];
-    if (targetCategory) {
+    const targetCategory = {
+      category: location.category.title,
+      icon: location.category.icon,
+    };
+    const targetGroup = groupMap[location.category.title];
+    if (targetCategory && targetGroup) {
       data.push({
         ..._.pick(
           location,
@@ -41,11 +51,11 @@ mapTypeList.forEach((mapPath) => {
         ),
         mapType: mapPath,
         mapTypeName: mapTypeNameMap[mapPath],
-        category: targetCategory.title,
-        icon: targetCategory.icon,
+        ...(targetCategory ?? {}),
+        ...(targetGroup ?? {}),
       });
     } else {
-      throw new Error("未找到目标 Category");
+      console.warn("未找到目标 Category 或 Group");
     }
   });
 });
@@ -98,6 +108,16 @@ data.forEach((item) => {
   );
   item.longitude = lon;
   item.latitude = lat;
+
+  if (item.icon === "yahaha2_start") {
+    item.icon = "yahaha2";
+  }
+  if (item.icon === "goddess") {
+    item.icon = "mini_challenge";
+  }
+  if (item.title === "运输呀哈哈（起点）") {
+    item.title = "运输呀哈哈(起点)";
+  }
 });
 
 fs.writeFileSync("./result.json", JSON.stringify(data, null, 2));
