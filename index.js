@@ -12,6 +12,18 @@ const mapTypeNameMap = {
   underground: "底下",
 };
 
+const groupColorMap = {
+  传送点: "#3DB2E5",
+  收集: "#efda00",
+  装备道具: "#93D04F",
+  素材: "#343e7a",
+  BOSS: "#7E2525",
+  隐藏任务: "#FFBB83",
+  地点: "#638AA7",
+  互动物: "#BD7B48",
+  其他: "#737373",
+};
+
 const data = [];
 
 mapTypeList.forEach((mapPath) => {
@@ -53,6 +65,7 @@ mapTypeList.forEach((mapPath) => {
         mapTypeName: mapTypeNameMap[mapPath],
         ...(targetCategory ?? {}),
         ...(targetGroup ?? {}),
+        color: groupColorMap[targetGroup.group],
       });
     } else {
       console.warn("未找到目标 Category 或 Group");
