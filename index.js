@@ -2,7 +2,8 @@ const fs = require("fs-extra");
 const _ = require("lodash");
 const MapHelper = require("./MapHelper");
 const path = require("path");
-const { fromPairs } = require("lodash");
+const { fromPairs, pick } = require("lodash");
+const md5 = require("md5");
 
 const mapTypeList = ["ground", "sky", "underground"];
 
@@ -131,6 +132,7 @@ data.forEach((item) => {
   if (item.title === "运输呀哈哈（起点）") {
     item.title = "运输呀哈哈(起点)";
   }
+  item.id = md5(JSON.stringify(_.pick(item, "title", "longitude", "latitude")));
 });
 
 fs.writeFileSync("./result.json", JSON.stringify(data, null, 2));
