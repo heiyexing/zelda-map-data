@@ -13809,22 +13809,6 @@
     "id": "193bb0503c012f010c6d3724a63a904a"
   },
   {
-    "title": "呀哈哈",
-    "description": "",
-    "longitude": -52.208176620834855,
-    "latitude": 46.122718461306754,
-    "tags": [],
-    "media": [],
-    "mapType": "ground",
-    "mapTypeName": "地面",
-    "category": "呀哈哈",
-    "icon": "yahaha",
-    "group": "收集",
-    "groupOrder": 1,
-    "color": "#efda00",
-    "id": "193bb0503c012f010c6d3724a63a904a"
-  },
-  {
     "title": "隐藏呀哈哈",
     "description": "",
     "longitude": -58.137665943495364,
@@ -13855,22 +13839,6 @@
     "groupOrder": 1,
     "color": "#efda00",
     "id": "d54883628ecac28b1aad829d6727c50c"
-  },
-  {
-    "title": "隐藏呀哈哈",
-    "description": "",
-    "longitude": -56.85324331422408,
-    "latitude": 71.78485095919545,
-    "tags": [],
-    "media": [],
-    "mapType": "ground",
-    "mapTypeName": "地面",
-    "category": "呀哈哈",
-    "icon": "yahaha",
-    "group": "收集",
-    "groupOrder": 1,
-    "color": "#efda00",
-    "id": "79d630c6aa6e4f96a4faa5908f66f60d"
   },
   {
     "title": "隐藏呀哈哈",
@@ -35862,22 +35830,6 @@
     "id": "d6f07fae0f0abead4151f04af542592c"
   },
   {
-    "title": "大型左纳尼乌姆矿产",
-    "description": "",
-    "longitude": -101.50046399376589,
-    "latitude": 69.17448349293693,
-    "tags": [],
-    "media": [],
-    "mapType": "sky",
-    "mapTypeName": "天空",
-    "category": "矿场",
-    "icon": "mine",
-    "group": "收集",
-    "groupOrder": 1,
-    "color": "#efda00",
-    "id": "d6f07fae0f0abead4151f04af542592c"
-  },
-  {
     "title": "左纳尼乌姆",
     "description": "套装：佐奈特盔甲\n\n佐奈特头盔\n佐奈特腰围\n位置：纺球内\n\n统计：\n\n4 防御\n护甲效果：能量提升",
     "longitude": -7.623090232075571,
@@ -38710,34 +38662,6 @@
     "media": [
       {
         "id": 111,
-        "title": "",
-        "file_name": "",
-        "attribution": "",
-        "url": "//player.bilibili.com/player.html?aid=656054278&cid=1127831502&page=1",
-        "type": "bilibili",
-        "mine_type": "",
-        "meta": null,
-        "order": 0
-      }
-    ],
-    "mapType": "underground",
-    "mapTypeName": "底下",
-    "category": "急冻盖拉",
-    "icon": "boss_zelda",
-    "group": "BOSS",
-    "groupOrder": 10,
-    "color": "#7E2525",
-    "id": "d8514d1f4474d60b34d3b1018dd428fd"
-  },
-  {
-    "title": "急冻盖拉",
-    "description": "用空中林克时间射爆它吧，记得多带点箭失",
-    "longitude": -118.0825140853754,
-    "latitude": 82.03375049244481,
-    "tags": [],
-    "media": [
-      {
-        "id": 112,
         "title": "",
         "file_name": "",
         "attribution": "",

@@ -25,7 +25,7 @@ const groupColorMap = {
   其他: "#737373",
 };
 
-const data = [];
+let data = [];
 
 mapTypeList.forEach((mapPath) => {
   const groupList = require(`./data/${mapPath}/group.json`);
@@ -134,5 +134,7 @@ data.forEach((item) => {
   }
   item.id = md5(JSON.stringify(_.pick(item, "title", "longitude", "latitude")));
 });
+
+data = _.uniqBy(data, "id");
 
 fs.writeFileSync("./result.json", JSON.stringify(data, null, 2));
