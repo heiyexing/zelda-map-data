@@ -19,7 +19,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -34,7 +34,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -49,7 +49,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -74,7 +74,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -88,10 +88,10 @@
     "expandable": false,
     "categories": [
       {
-        "id": 223,
+        "id": 312,
         "group_id": 220,
-        "title": "宝箱",
-        "icon": "treasure_chest",
+        "title": "修理工八爪鱼",
+        "icon": "repairman_octopus",
         "info": null,
         "template": null,
         "order": 0,
@@ -99,7 +99,37 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
+        "premium": false
+      },
+      {
+        "id": 311,
+        "group_id": 220,
+        "title": "武器刷新点",
+        "icon": "weapon",
+        "info": null,
+        "template": "***位置***：？？\n ***留言***：??\n",
+        "order": 0,
+        "has_heatmap": false,
+        "features_enabled": false,
+        "ign_enabled": true,
+        "visible": true,
+        "description": null,
+        "premium": false
+      },
+      {
+        "id": 223,
+        "group_id": 220,
+        "title": "宝箱",
+        "icon": "treasure_chest",
+        "info": null,
+        "template": "***位置***：？？",
+        "order": 0,
+        "has_heatmap": false,
+        "features_enabled": false,
+        "ign_enabled": true,
+        "visible": true,
+        "description": null,
         "premium": false
       },
       {
@@ -114,7 +144,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -129,7 +159,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -154,7 +184,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -169,7 +199,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -184,7 +214,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -199,7 +229,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -214,7 +244,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -229,7 +259,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -243,6 +273,21 @@
     "expandable": false,
     "categories": [
       {
+        "id": 316,
+        "group_id": 66,
+        "title": "烹饪锅",
+        "icon": "cooking_pot",
+        "info": null,
+        "template": null,
+        "order": 0,
+        "has_heatmap": false,
+        "features_enabled": false,
+        "ign_enabled": true,
+        "visible": true,
+        "description": null,
+        "premium": false
+      },
+      {
         "id": 87,
         "group_id": 66,
         "title": "魔人像",
@@ -254,7 +299,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -269,7 +314,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -284,7 +329,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -299,7 +344,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -324,7 +369,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -339,7 +384,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -354,7 +399,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -369,7 +414,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -384,7 +429,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -399,7 +444,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -424,7 +469,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -439,7 +484,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -482,7 +527,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -497,7 +542,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -512,7 +557,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]
@@ -537,7 +582,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -567,7 +612,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -582,7 +627,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -597,7 +642,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -612,7 +657,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -627,7 +672,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -642,7 +687,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -657,7 +702,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -672,7 +717,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -687,7 +732,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -702,7 +747,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -717,7 +762,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -732,7 +777,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -747,7 +792,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -762,7 +807,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -777,7 +822,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -792,7 +837,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -807,7 +852,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -822,7 +867,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -837,7 +882,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -852,7 +897,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -867,7 +912,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -882,7 +927,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -897,7 +942,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -912,7 +957,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -927,7 +972,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -942,7 +987,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -957,7 +1002,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -972,7 +1017,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -987,7 +1032,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -1002,7 +1047,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -1017,7 +1062,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       },
       {
@@ -1032,7 +1077,7 @@
         "features_enabled": false,
         "ign_enabled": true,
         "visible": true,
-        "description": "",
+        "description": null,
         "premium": false
       }
     ]

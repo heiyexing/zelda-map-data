@@ -29,6 +29,7 @@ let data = [];
 
 mapTypeList.forEach((mapPath) => {
   const groupList = require(`./data/${mapPath}/group.json`);
+  const categoryMap = require(`./data/${mapPath}/category.json`);
   const locationList = require(`./data/${mapPath}/location.json`);
 
   const groupMap = fromPairs(
@@ -46,11 +47,15 @@ mapTypeList.forEach((mapPath) => {
   );
 
   locationList.forEach((location) => {
+    const category = location.category ?? (location.category_id && categoryMap[location.category_id])
+    if (!category) {
+      debugger
+    }
     const targetCategory = {
-      category: location.category.title,
-      icon: location.category.icon,
+      category: category.title,
+      icon: category.icon,
     };
-    const targetGroup = groupMap[location.category.title];
+    const targetGroup = groupMap[category.title];
     if (targetCategory && targetGroup) {
       data.push({
         ..._.pick(
